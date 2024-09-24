@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Rayen Ben Ammar- Portfolio</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-5">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Rayen</h1>
+        <nav class="space-x-4">
+          <a href="#home" class="hover:text-blue-300">Home</a>
+          <a href="#projects" class="hover:text-blue-300">Projects</a>
+          <a href="#contact" class="hover:text-blue-300">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-cover bg-center h-screen"
+      style="background-image: 
+    >
+      <div
+        class="flex items-center justify-center h-full bg-black bg-opacity-50"
+      >
+        <h2 class="text-white text-4xl md:text-6xl font-bold">
+          Welcome to My Portfolio
+        </h2>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="py-20">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">My Skills</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="bg-white p-5 shadow-lg rounded-lg">
+            <h3 class="text-xl font-semibold">HTML</h3>
+          </div>
+          <div class="bg-white p-5 shadow-lg rounded-lg">
+            <h3 class="text-xl font-semibold">CSS</h3>
+          </div>
+          <div class="bg-white p-5 shadow-lg rounded-lg">
+            <h3 class="text-xl font-semibold">JavaScript</h3>
+          </div>
+          <!-- Add more skills as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-200">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">My Portfolio</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="bg-white p-5 shadow-lg rounded-lg">
+            <img
+              src="./pics/423005411_122120997920155485_1221830428816948211_n.jpg"
+              alt="Project Title"
+              class="w-full h-40 object-cover rounded-lg mb-3"
+            />
+            <h3 class="font-semibold">my portfolio</h3>
+            <p>Project description goes here.</p>
+          </div>
+       
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-20">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Contact Me</h2>
+        <form class="bg-white p-10 shadow-lg rounded-lg max-w-md mx-auto">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="border border-gray-300 p-2 mb-4 w-full"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="border border-gray-300 p-2 mb-4 w-full"
+            required
+          />
+          <textarea
+            placeholder="Your Message"
+            class="border border-gray-300 p-2 mb-4 w-full"
+            required
+          ></textarea>
+          <button type="submit" class="bg-blue-600 text-white p-2 rounded">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white p-5">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <div class="flex justify-center space-x-4 mt-2">
+          <a href="#" class="hover:text-blue-300">Facebook</a>
+          <a href="#" class="hover:text-blue-300">Twitter</a>
+          <a href="#" class="hover:text-blue-300">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
